@@ -71,12 +71,14 @@ header {
 }
 
 .btn-primary:hover {
-    background-color: darkblue; /* Dark blue on hover */
+    background-color: darkblue; 
+    /* Dark blue on hover */
 }
 
 #about {
     padding: 50px 20px;
-    background-color: #f0f0f0; /* Light gray for about section for contrast */
+    background-color: #f0f0f0; 
+    /* Light gray for about section */
     text-align: center;
 }
 
@@ -86,7 +88,8 @@ header {
 }
 
 .box {
-    background: white; /* White for boxes to stand out against silver */
+    background: white; 
+    /* White for boxes thus more consipucous silver */
     padding: 20px;
     width: 30%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -94,17 +97,20 @@ header {
 }
 
 .box:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
+    transform: translateY(-5px);
+     /* Lift effect on hover */
 }
 
 #form-section {
-    background-color: #f0f0f0; /* Light gray for the form section for contrast */
+    background-color: #f0f0f0;
+    /* Light gray for the form section for contrast */
     padding: 50px 20px;
     text-align: center;
 }
 
 #form-section h2 {
-    color: darkblue; /* Dark blue for form section heading */
+    color: darkblue;
+     /* Dark blue */
 }
 
 input[type="text"],
@@ -112,7 +118,8 @@ input[type="date"],
 select {
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid blue; /* Blue border for input fields */
+    border: 1px solid blue; 
+    /* Blue border for input fields */
     border-radius: 5px;
     width: 80%;
 }
@@ -124,7 +131,8 @@ input[type="radio"] {
 
 button {
     padding: 10px 20px;
-    background-color: blue; /* Blue for buttons */
+    background-color: blue;
+     /* Blue buttons */
     color: white;
     border: none;
     border-radius: 5px;
@@ -133,5 +141,6 @@ button {
 }
 
 button:hover {
-    background-color: darkblue; /* Dark blue on button hover */
+    background-color: darkblue;
+     /* Dark blue on button hover */
 }
