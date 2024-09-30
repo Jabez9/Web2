@@ -35,6 +35,7 @@ about.html            # About Us page
  README.md             # Project documentation
 
 # Screenshot
-[Screenshot of Smart Gyms Ke ](./Screenshot 2024-09-30 221456.png)
+![Screenshot of Smarts Gyms Ke](./screenshot.png)
+
 
 
