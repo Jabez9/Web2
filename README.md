@@ -25,14 +25,16 @@ This website includes multiple sections to give users information about the gym,
 
 ## Project Structure
 
-.
-├── index.html            # Landing page (home)
-├── form.html             # User sign-up form
-├── programs.html         # Fitness programs and workout details
-├── about.html            # About Us page
-├── contact.html          # Contact page
-├── about.css             # Stylesheet specific to the About Us page
-├── form.js               # JavaScript for handling sign-up form validation
-└── README.md             # Project documentation
+ index.html            # Landing page (home)
+ form.html             # User sign-up form
+ programs.html         # Fitness programs and workout details
+about.html            # About Us page
+ contact.html          # Contact page
+ about.css             # Stylesheet specific to the About Us page
+ form.js               # JavaScript for handling sign-up form validation
+ README.md             # Project documentation
 
-# 
+# Screenshot
+[Screenshot of Smart Gyms Ke ](./Screenshot 2024-09-30 221456.png)
+
+
