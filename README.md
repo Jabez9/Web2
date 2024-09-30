@@ -36,6 +36,9 @@ about.html            # About Us page
 
 # Screenshot
 ![Screenshot of Smarts Gyms Ke](./screenshot.png)
+![Screenshot of Smarts Gyms Ke](./screenshot1.png)
+![Screenshot of Smarts Gyms Ke](./screenshot2.png)
+![Screenshot of Smarts Gyms Ke](./screenshot3.png)
 
 
 
