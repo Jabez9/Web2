@@ -34,4 +34,7 @@ about.html            # About Us page
  form.js               # JavaScript for handling sign-up form validation
  README.md             # Project documentation
 
-# 
+# Screenshot
+[Screenshot of Smart Gyms Ke ](./Screenshot 2024-09-30 221456.png)
+
+
