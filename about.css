@@ -51,7 +51,8 @@ header {
 }
 
 h1, h2 {
-    color: #007BFF; /* Blue headers */
+    color: #007BFF; 
+    /* Blue headers */
 }
 
 h1 {
