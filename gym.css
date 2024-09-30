@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+    background-color: silver; /* Silver background color */
+    color: black; /* Default text color set to black for contrast */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black for the header */
+    padding: 20px;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: yellow; /* Yellow color for links */
+    padding: 10px 20px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: darkblue; /* Change to dark blue on hover */
+}
+
+#hero {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    color: black; /* Text color for hero section */
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-primary {
+    padding: 10px 30px;
+    background-color: blue; /* Blue for primary button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: darkblue; /* Dark blue on hover */
+}
+
+#about {
+    padding: 50px 20px;
+    background-color: #f0f0f0; /* Light gray for about section for contrast */
+    text-align: center;
+}
+
+.about-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    background: white; /* White for boxes to stand out against silver */
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+#form-section {
+    background-color: #f0f0f0; /* Light gray for the form section for contrast */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#form-section h2 {
+    color: darkblue; /* Dark blue for form section heading */
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid blue; /* Blue border for input fields */
+    border-radius: 5px;
+    width: 80%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue; /* Blue for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darkblue; /* Dark blue on button hover */
+}

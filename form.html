@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Fitness & Wellness Coaching</title>
+    <link rel="stylesheet" href="gym.css">
+    <script src="form.js"> </script>
+</head>
+<body>
+    <section id="sign-up">
+        <h2>Sign Up for Our Fitness Programs</h2>
+        <form id="sign-up-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required> Male
+            <input type="radio" id="female" name="gender" value="female"> Female<br><br>
+
+            <label for="goal">Fitness Goal:</label>
+            <select id="goal" name="goal" required>
+                <option value="" disabled selected>Select your fitness goal</option>
+                <option value="weight-loss">Weight Loss</option>
+                <option value="muscle-gain">Muscle Gain</option>
+                <option value="endurance">Endurance</option>
+            </select><br><br>
+
+            <label for="schedule">Preferred Session Date:</label>
+            <input type="date" id="schedule" name="schedule" required><br><br>
+
+            <label for="photo">Upload a progress photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+
+            <label for="terms">I agree to the terms and conditions:</label>
+            <input type="checkbox" id="terms" name="terms" required><br><br>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <script src="signup.js"></script>
+</body>
+</html>
